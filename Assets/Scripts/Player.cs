@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     private Vector2 movement;
     [SerializeField] private Rigidbody2D rb2d;
     [SerializeField] private float jumpForce = 6;
+
     
     // Update is called once per frame
     void Update()
@@ -15,10 +16,17 @@ public class Player : MonoBehaviour
         float moveHorizontally = Input.GetAxis("Horizontal");
         movement.x = moveHorizontally * speed * Time.deltaTime;
         transform.Translate(movement);
-        if (Input.GetButtonDown("Jump"))
+        Debug.DrawRay(transform.position, Vector2.down * 0.8f, Color.red);
+        
+        if (Input.GetButtonDown("Jump")&& GetIsGrounded())
         {
             Jump();
         }
+    }
+
+    private bool GetIsGrounded()
+    {
+        return Physics2D.Raycast(transform.position, Vector2.down, 0.8f, LayerMask.GetMask("Ground"));
     }
 
     private void Jump()
