@@ -473,7 +473,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &909551522
+--- !u!1 &1219835052
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -481,9 +481,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 909551525}
-  - component: {fileID: 909551524}
-  - component: {fileID: 909551523}
+  - component: {fileID: 1219835055}
+  - component: {fileID: 1219835054}
+  - component: {fileID: 1219835053}
   m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
@@ -491,13 +491,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &909551523
+--- !u!61 &1219835053
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909551522}
+  m_GameObject: {fileID: 1219835052}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -537,13 +537,13 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.0004714, y: 1}
   m_EdgeRadius: 0
---- !u!212 &909551524
+--- !u!212 &1219835054
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909551522}
+  m_GameObject: {fileID: 1219835052}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -591,13 +591,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &909551525
+--- !u!4 &1219835055
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909551522}
+  m_GameObject: {fileID: 1219835052}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.1195, y: -4.55, z: 0}
@@ -882,5 +882,5 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 9675068}
   - {fileID: 1988259394}
-  - {fileID: 909551525}
+  - {fileID: 1219835055}
   - {fileID: 1496958238}
