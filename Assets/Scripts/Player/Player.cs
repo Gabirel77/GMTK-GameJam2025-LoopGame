@@ -6,7 +6,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public bool isDead = false;
-    public float speed = 3.35f;
+    private float speed = 3.2f;
     public Vector2 movement;
     [SerializeField] private Rigidbody2D rb2d;
     [SerializeField] private float jumpForce = 6;
