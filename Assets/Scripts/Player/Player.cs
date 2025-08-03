@@ -1,9 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
-{   
+{
+    public bool isDead = false;
     public float speed = 3.35f;
     private Vector2 movement;
     [SerializeField] private Rigidbody2D rb2d;

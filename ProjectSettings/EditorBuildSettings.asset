@@ -44,5 +44,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cena13.unity
     guid: e6103d4de3a80b04e9cb308d922b360c
+  - enabled: 1
+    path: Assets/Scenes/Cena14.unity
+    guid: 73c0bcc84f73ca149af036ba0c37f802
+  - enabled: 1
+    path: Assets/Scenes/Cena15.unity
+    guid: 3a43cadb648844a4a8442772bb69d7df
+  - enabled: 1
+    path: Assets/Scenes/Cena16.unity
+    guid: fb7c97a6aa5f7a6429ef820a16286edd
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
