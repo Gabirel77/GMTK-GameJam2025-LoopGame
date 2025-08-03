@@ -53,5 +53,26 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cena16.unity
     guid: fb7c97a6aa5f7a6429ef820a16286edd
+  - enabled: 1
+    path: Assets/Scenes/Cena17.unity
+    guid: 4e0e55168b2f5834eb3dd6920e641ed5
+  - enabled: 1
+    path: Assets/Scenes/Cena18.unity
+    guid: 23a0c6ef1df5448429ccf62437e36bcd
+  - enabled: 1
+    path: Assets/Scenes/Cena19.unity
+    guid: 36ede54fe05aa6248ad1da51f5ec36ac
+  - enabled: 1
+    path: Assets/Scenes/Cena20.unity
+    guid: 04e5f053318dd3e469f4c273ed7801e0
+  - enabled: 1
+    path: Assets/Scenes/Cena21.unity
+    guid: ef0fb11df0de781449d74f1375361a5c
+  - enabled: 1
+    path: Assets/Scenes/Cena22.unity
+    guid: 24886b67bd735f646b0df29a75e958b8
+  - enabled: 1
+    path: Assets/Scenes/Cena23.unity
+    guid: 844be5cce36adb247a59e5b59dcc24f4
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

@@ -30,7 +30,6 @@ public class SceneController : MonoBehaviour
     IEnumerator LoadLevel()
     {
         player = GameObject.Find("Player").GetComponent<Player>();
-        Debug.Log("Estado do jogador: " + player.isDead);
         if (player.isDead == false)
         {
 

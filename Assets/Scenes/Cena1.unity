@@ -294,8 +294,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0e69a718da8f95c49918f6a2e409b66a, type: 3}
-  m_Resource: {fileID: 8300000, guid: 0e69a718da8f95c49918f6a2e409b66a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ab2a7014fda83dc4d87af45060d4793f, type: 3}
+  m_Resource: {fileID: 8300000, guid: ab2a7014fda83dc4d87af45060d4793f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -926,9 +926,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 619dcf653aa56cb42aac51ea9ddc1689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isActive: 1
-  player: {fileID: 1163403785}
+  isDead: 0
   speed: 10
+  movement: {x: 0, y: 0}
   rb2d: {fileID: 1163403787}
   jumpForce: 10
 --- !u!50 &1163403787
