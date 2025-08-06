@@ -61,8 +61,8 @@ A mecânica e a narrativa giram em torno de loops:
 
 Todas as músicas do jogo foram compostas exclusivamente para este projeto por:
 
-**[Felipe Oliveira Sousa]** – Compositor, baterista e produtor musical  
-🔗 [linkedin](https://www.linkedin.com/in/felipe-oliveira-sousa-2935b1205)]
+**[Felipe Oliveira Sousa]** – 
+🔗 [linkedin](https://www.linkedin.com/in/felipe-oliveira-sousa-2935b1205)
 
 A trilha sonora foi pensada para acompanhar a atmosfera crescente de mistério e repetição.  
 
